@@ -1,9 +1,6 @@
-import axios from 'axios';
+const API_URL = 'http://localhost:8000';
+const TIMEOUT = 5000;
 
-const apiClient = axios.create({
-    baseURL: 'https://api.example.com', // Replace with your API base URL
-    timeout: 1000,
-    headers: {'Content-Type': 'application/json'}
-});
+// Rest of your API service code...
 
-export default apiClient;
+export { API_URL, TIMEOUT };
