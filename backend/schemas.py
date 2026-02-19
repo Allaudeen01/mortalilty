@@ -1,0 +1,1 @@
+from pydantic import BaseModel\n\nclass Patient(BaseModel):\n    id: int\n    name: str\n    age: int\n    gender: str\n    diagnosis: str\n\nclass PatientCreate(BaseModel):\n    name: str\n    age: int\n    gender: str\n    diagnosis: str\n\nclass PatientUpdate(BaseModel):\n    name: str = None\n    age: int = None\n    gender: str = None\n    diagnosis: str = None
