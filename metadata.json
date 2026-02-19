@@ -1,0 +1,7 @@
+{
+  "name": "MaternalCare Surveillance System",
+  "description": "A comprehensive maternal mortality tracking and risk assessment platform with AI-powered clinical insights, surveillance dashboards, and detailed pregnancy history management.",
+  "requestFramePermissions": [
+    "geolocation"
+  ]
+}
